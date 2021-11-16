@@ -9,7 +9,7 @@ public class SingletonConnection {
     private SingletonConnection() {}
 
     // đặt tên database financial_management cho đồng bộ nhé
-    private static String jdbcURL = "jdbc:mysql://localhost:3306/financial_management?useSSL=false";
+    private static String jdbcURL = "jdbc:mysql://localhost:3306/financial_management_system?useSSL=false";
     private static String jdbcUsername = "root";
     //Tự điền password nha anh em, làm luôn cho tiện chỉ việc thay password thôi;
     private static String jdbcPassword = "1234567890";
